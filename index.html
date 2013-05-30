@@ -33,7 +33,6 @@
 
 <body>
   <div id="gameLayer" style="width: 480px; height: 720px; margin: 0 auto;"></div>
-  <a href="https://github.com/BufferSpace/NaughtySquirrel"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></img></a>
 
   <div id="specification">
     <p class="title">Attention</p>
@@ -50,20 +49,10 @@
   </div>
 </body>
 
+<script src="cocos2d/XC-Adapter.js" type="text/javascript"></script>
+<script src="index.js" tyep="text/javascript"></script>
+
 <script type="text/javascript"> 
-
-  var SCALE_RATE = 1;
-  var STANDARD_SIZE = {
-      width  : 480,
-      height : 720,
-  };
-
-  var WIN_SIZE = {
-
-    width  : STANDARD_SIZE.width * SCALE_RATE,
-    height : STANDARD_SIZE.height * SCALE_RATE,
-  
-  }
 
   var div = document.getElementById('gameLayer');
   
@@ -75,7 +64,5 @@
   div.appendChild(canvas);
 
 </script>
-
-<script src="cocos2d.js"></script>
 
 </html>
